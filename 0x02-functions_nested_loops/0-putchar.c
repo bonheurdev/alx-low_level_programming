@@ -1,12 +1,8 @@
 #include "main.h"
 /**
- * main - entry point
- *
- * _putchar: print the alphabets using main.h
- *
- * @parameters: not yet
- *
- * Return: success if 0
+ * main - main Entry point
+ * Description: 'the program's description'
+ * Return: Always 0 (sucess)
  */
 int main(void)
 {
