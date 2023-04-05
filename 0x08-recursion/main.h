@@ -1,5 +1,3 @@
-#ifndef MAIN_H
-#define MAIN_H
 
 int _putchar(char c);
 void _puts_recursion(char *s);
@@ -15,4 +13,3 @@ int wildcmp(char *s1, char *s2);
 int naturalsqrt(int num, int i);
 int isPalindrome(char str[], int start, int end);
 
-#endif
