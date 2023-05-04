@@ -30,4 +30,4 @@ _putchar('0');
 /* Shift the mask one bit to the right*/
 mask >>= 1;
 }
-s
+}
