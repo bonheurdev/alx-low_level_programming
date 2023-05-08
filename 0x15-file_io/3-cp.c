@@ -40,7 +40,7 @@ if (fd_from == -1)
 error_exit(98, strerror(errno));
 
 /* Open file_to in write-only mode with create and truncate flags*/
-fd_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
+fd_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH);
 if (fd_to == -1)
 error_exit(99, strerror(errno));
 
